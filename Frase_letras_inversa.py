@@ -3,4 +3,4 @@
 frase= input("Insira uma frase:")
 
 for i in range(len(frase) -1,-1,-1):
-    print(frase[i])
+    print(frase[i]) 
