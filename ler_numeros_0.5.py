@@ -4,7 +4,7 @@ numero = float(input("insira o seu numero: "))
 
 for i in range (10):
     numero = numero + 0.5
-    print(numero)
+    print(numero,end=",")
     contar = contar + numero
 
-print("O total da soma dos numeros é",contar)
+print("=",contar)
