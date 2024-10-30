@@ -3,8 +3,11 @@ contar = 0
 numero = float(input("insira o seu numero: "))
 
 for i in range (10):
+    if i < 9:
+        print(numero,end=",")
+    else:
+        print(numero,end=" ")
     numero = numero + 0.5
-    print(numero,end=",")
     contar = contar + numero
 
 print("=",contar)
