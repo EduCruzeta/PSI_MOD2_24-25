@@ -3,7 +3,7 @@
 tempo = 0
 pergunta = "sim"
 
-tempovoltas = int(input("insira a duração da volta em segundos"))
+tempovoltas = int(input("insira a duração da volta em segundos: "))
 tempo = tempo + tempovoltas
 
 if tempovoltas <= 0:
