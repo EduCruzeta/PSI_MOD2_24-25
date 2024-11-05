@@ -24,7 +24,7 @@ while votos == "decorrer":
     elif voto == "F" :
         contarf = contarf + 1
     elif voto == "0":
-        print("O resultado final das listas são lista T com",contart,"votos, lista S com",contars,"votos, lista H com",contarh,"e por fim lista F com",contarf,"votos")
+        print("O resultado final das listas são lista T com",contart,"votos, lista S com",contars,"votos, lista H com",contarh,"e lista F com",contarf,"votos")
         print("O programa ira terminar parabens a lista vencedora.")
         votos = "acabou"
     else:

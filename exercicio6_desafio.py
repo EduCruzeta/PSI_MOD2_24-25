@@ -7,4 +7,4 @@ Construa o algoritmo do fatorial de um número, isto é, o produto de todos os i
 n = int(input("insira um numero: "))
 
 for i in range (1,n+1):
-    print(i*i)
+    
