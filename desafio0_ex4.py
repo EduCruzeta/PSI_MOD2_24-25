@@ -1,4 +1,5 @@
-#este algoritmo vai ler o peso de todas as malas ate exeder os 1000kg 
+#este algoritmo vai ler o peso de todas as malas ate exeder os 1000kg a cada mala é cobrado uma taxa de 20€
+
 aviao = 1000
 contar = 0
 taxa = 0
