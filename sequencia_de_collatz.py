@@ -6,7 +6,7 @@ numero = int(input("insira um numero inteiro positivo: "))
 
 while numero != 1:
     if numero % 2 == 0:
-        numero = numero / 2
+        numero = numero // 2
         print(numero)
         contar = contar + 1
     else:
